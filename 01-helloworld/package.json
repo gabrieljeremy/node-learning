@@ -1,0 +1,16 @@
+{
+  "name": "01-helloworld",
+  "version": "0.0.1",
+  "description": "nodejs helloworld",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "server",
+    "helloworld"
+  ],
+  "author": "Jeremy",
+  "license": "MIT"
+}

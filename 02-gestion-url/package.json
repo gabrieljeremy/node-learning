@@ -1,0 +1,16 @@
+{
+  "name": "02-gestion-url",
+  "version": "0.0.1",
+  "description": "gestion des url et affichage selon l'url",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gestion",
+    "url",
+    "node"
+  ],
+  "author": "Jeremy",
+  "license": "MIT"
+}
