@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Chambre n°<%= etage %></title>
+</head>
+<body>
+    <% nom = noms[Math.round(Math.random() * (noms.length - 1))] %>
+
+    <h1> <%= nom %> se trouve dans la chambre n°<%= chambre %> à l'étage  <%= etage %> </h1>
+    <% for(var i = 1; i <= etage; i++) { %>
+        <% if (i < etage) { %>
+            <p>L'ascendeur passe l'étage n°<%= i %></p> 
+        <% } else { %>
+            <p>J'arrive enfin à l'étage n°<%= i %> et devant la chambre n°<%= chambre %></p> 
+        <% } %>
+    <% } %>
+    <p>Je toque à sa porte</p>
+</body>
+</html>
+
+
+
+

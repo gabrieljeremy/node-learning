@@ -1,0 +1,23 @@
+{
+  "name": "exe04",
+  "version": "0.0.1",
+  "description": "nodejs express.js routes templates",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "routes",
+    "templates"
+  ],
+  "author": "Jeremy",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "favicon": "0.0.2",
+    "morgan": "^1.9.0",
+    "serve-favicon": "^2.4.5"
+  }
+}
