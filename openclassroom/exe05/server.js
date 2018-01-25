@@ -38,7 +38,6 @@ app.use(session({secret: 'todotopsecret'}))
     })
 
 /* On redirige vers la todolist si la page demandée n'est pas trouvée */
-
     .use(function(req, res, next){
         res.redirect('/todo')
     })
