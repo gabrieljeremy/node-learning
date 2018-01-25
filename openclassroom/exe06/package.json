@@ -1,0 +1,20 @@
+{
+  "name": "exe06",
+  "version": "0.0.1",
+  "description": "création d'un chat",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "socket.io",
+    "chat",
+    "realtime"
+  ],
+  "author": "Jeremy",
+  "license": "MIT",
+  "dependencies": {
+    "ent": "^2.2.0",
+    "socket.io": "^2.0.4"
+  }
+}
